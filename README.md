@@ -1,4 +1,4 @@
-# IR_Project-Authors_Search_Engine
+# Book Author search Engine - IR Project
 Author Search Engine using ElasticSearch and Python for IR Project(CS4642)
 
 ## Getting Start
