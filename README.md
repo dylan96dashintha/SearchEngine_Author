@@ -74,6 +74,7 @@ Following figure shows how the search engine works through teh flask server
 ### Indexing and Query techniques
 #### Indexing
 - 'ICU_Tokenizer’ which is a standard tokenizer and which has better support for Asian languages to tokenize text into the words.
+- Elastic search ‘edge_ngram’ filter was used to generate n-grams.
 
 #### MultiSearch with Rule Base classification
 Rule-based text mining is used to understand and extract data from the user entered query string.
