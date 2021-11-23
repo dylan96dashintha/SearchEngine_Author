@@ -16,32 +16,7 @@ def multi_match_agg_cross(query, fields):
 				"type": "cross_fields"
 			}
 		},
-		"aggs": {
-			"BirthPlace Filter": {
-				"terms": {
-					"field": "birth_place.keyword",
-					"size": 10
-				}
-			},
-			"Book Filter": {
-				"terms": {
-					"field": "book_list.keyword",
-					"size": 10
-				}
-			},
-			"Author Filter": {
-				"terms": {
-					"field": "author_name.keyword",
-					"size": 10
-				}
-			},
-			"Category Filter": {
-				"terms": {
-					"field": "category.keyword",
-					"size": 10
-				}
-			}
-		}
+		
 	}
 
 	q = json.dumps(q)
@@ -64,32 +39,7 @@ def multi_match_agg_phrase(query, fields):
 				"type": "phrase_prefix"
 			}
 		},
-		"aggs": {
-			"BirthPlace Filter": {
-				"terms": {
-					"field": "birth_place.keyword",
-					"size": 10
-				}
-			},
-			"Book Filter": {
-				"terms": {
-					"field": "book_list.keyword",
-					"size": 10
-				}
-			},
-			"Author Filter": {
-				"terms": {
-					"field": "author_name.keyword",
-					"size": 10
-				}
-			},
-			"Category Filter": {
-				"terms": {
-					"field": "category.keyword",
-					"size": 10
-				}
-			}
-		}
+		
 	}
     
 	q = json.dumps(q)
