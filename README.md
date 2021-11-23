@@ -51,7 +51,7 @@ school, book_list,about_author, language, category
  - Search Engine can identify synonyms related to specific fields like රචකයා(author), ලියපු(author), උපන්ගම(place of birth)
  and search based on the identified fields
  
-    eg: මාර්ටින් වික්‍රමසිංහ රචකයා, උපන්ගම කොග්ගල
+    eg: මාර්ටින් වික්‍රමසිංහ රචකයා, උපන්ගම කොග්ගල, මිහිකතේ ගීතය පොත ලියූ රචකයා
  
  - Search Engine supports both Sinhala and English Language queries (Bilingual Support only for the seaching by author name and authors birthplace)
  
@@ -63,8 +63,8 @@ school, book_list,about_author, language, category
  
  ### Following figure shows the example search result of the UI.
  
- 
-![BASE ui2](https://user-images.githubusercontent.com/47697151/142927562-473eb5b1-37c9-4e9a-9b97-0d99e7bf89c6.PNG)
+ ![IR UI3](https://user-images.githubusercontent.com/47697151/143037785-6f62a867-2c6b-4d40-8103-075a59909a65.PNG)
+
 
 ### Project Architecture
 Following figure shows how the search engine works through teh flask server
