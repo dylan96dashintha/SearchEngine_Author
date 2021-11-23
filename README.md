@@ -85,4 +85,4 @@ A basic set of rules are applied to each search phrase to identify the keywords,
 
 #### Following diagram further shows the use if Rule Based Classification and Multisearch queries.
 
-![SearchEngine_flowDiagram drawio](https://user-images.githubusercontent.com/47697151/143008963-47c80d36-4649-4308-9a63-a7465e33ec19.png)
+![SearchEngine_flowDiagram drawio (1)](https://user-images.githubusercontent.com/47697151/143009089-208674ca-57fa-45e3-9ad9-a0563e7c7d87.png)
