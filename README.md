@@ -51,7 +51,7 @@ school, book_list,about_author, language, category
  - Search Engine can identify synonyms related to specific fields like රචකයා(author), ලියපු(author), උපන්ගම(place of birth)
  and search based on the identified fields
  
-    eg: මාර්ටින් වික්‍රමසිංහ රචකයා, උපන්ගම කොග්ගල
+    eg: මාර්ටින් වික්‍රමසිංහ රචකයා, උපන්ගම කොග්ගල, මිහිකතේ ගීතය පොත ලියූ රචකයා
  
  - Search Engine supports both Sinhala and English Language queries (Bilingual Support only for the seaching by author name and authors birthplace)
  
@@ -63,8 +63,8 @@ school, book_list,about_author, language, category
  
  ### Following figure shows the example search result of the UI.
  
- 
-![BASE ui2](https://user-images.githubusercontent.com/47697151/142927562-473eb5b1-37c9-4e9a-9b97-0d99e7bf89c6.PNG)
+ ![IR UI3](https://user-images.githubusercontent.com/47697151/143037785-6f62a867-2c6b-4d40-8103-075a59909a65.PNG)
+
 
 ### Project Architecture
 Following figure shows how the search engine works through teh flask server
@@ -74,14 +74,16 @@ Following figure shows how the search engine works through teh flask server
 ### Indexing and Query techniques
 #### Indexing
 - 'ICU_Tokenizer’ which is a standard tokenizer and which has better support for Asian languages to tokenize text into the words.
+- Elastic search ‘edge_ngram’ filter was used to generate n-grams.
 
 #### MultiSearch with Rule Base classification
 Rule-based text mining is used to understand and extract data from the user entered query string.
 
-A basic set of rules are applied to each search phrase to identify the keywords, classify them into relevant search types. Acoording to the classification user query was classified to one of the following query type.
+A basic set of rules are applied to each search phrase to identify the keywords, classify them into relevant search types. Acoording to the classification user query was classified to one of the following query type. (After they identify the relevant fields of the keywords, boost the identified field by increasing the weight.)
 
 1. Faceted query with Cross Fields
 2. Faceted query with phrase-prefix
 
 #### Following diagram further shows the use if Rule Based Classification and Multisearch queries.
 
+![SearchEngine_flowDiagram drawio (1)](https://user-images.githubusercontent.com/47697151/143009089-208674ca-57fa-45e3-9ad9-a0563e7c7d87.png)
