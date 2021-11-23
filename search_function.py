@@ -31,16 +31,11 @@ def search(search_query):
     for word in tokens:
         print (word)
 
-        #if (word in sinhala_popularity) or (word in english_popularity):
-        # if (word in sinhala_popularity):
-        #     processed_tokens.remove(word)
-        #     print('Start sort by views')
-        #     sort_num = 986
 
-        if word.isdigit():
-            sort_num = int(word)
-            processed_tokens.remove(word)
-            print ('Identified sort number',sort_num)
+        # if word.isdigit():
+        #     sort_num = int(word)
+        #     processed_tokens.remove(word)
+        #     print ('Identified sort number',sort_num)
 
         for i in range(0, 5):
             if word in synonym_list[i]:
@@ -86,7 +81,7 @@ def search(search_query):
     # elif (len(search_fields) == 2):
     #     query_es = advanced_queries.multi_match_agg_phrase(processed_query, final_fields)
     else:
-        query_es = advanced_queries.multi_match_agg_cross(processed_query, final_fields)
+        query_es = advanced_queries.multi_match_agg_phrase(processed_query, final_fields)
 
     # else:
     #     print('Range Query')
