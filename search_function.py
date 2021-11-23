@@ -21,8 +21,8 @@ synonym_list = [ synonym_writer, synonym_writer_eng, synonym_birth_date, synonym
 
 def search(search_query):
     processed_query = ""
-    tokens = search_query.split()
-    processed_tokens = search_query.split()
+    tokens = tokenizer.tokenize(search_query)
+    processed_tokens = tokenizer.tokenize(search_query)
     search_fields = []
     sort_num = 0
     field_list = ["author_name", "author_name_english", "date_of_birth", "birth_place", "birth_place_english", "book_list"]
