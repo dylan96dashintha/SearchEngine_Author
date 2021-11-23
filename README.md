@@ -72,3 +72,16 @@ Following figure shows how the search engine works through teh flask server
 ![BASE archi](https://user-images.githubusercontent.com/47697151/142927743-d76d5f5d-b689-4a94-b8fe-5cb7985f44ac.PNG)
 
 ### Indexing and Query techniques
+#### Indexing
+- 'ICU_Tokenizer’ which is a standard tokenizer and which has better support for Asian languages to tokenize text into the words.
+
+#### MultiSearch with Rule Base classification
+Rule-based text mining is used to understand and extract data from the user entered query string.
+
+A basic set of rules are applied to each search phrase to identify the keywords, classify them into relevant search types. Acoording to the classification user query was classified to one of the following query type.
+
+1. Faceted query with Cross Fields
+2. Faceted query with phrase-prefix
+
+#### Following diagram further shows the use if Rule Based Classification and Multisearch queries.
+
