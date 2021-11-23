@@ -1,0 +1,143 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script>
+	
+	function MyFunction(aggregate){
+		keyword = aggregate.name;
+		console.log("keyword: "+keyword);
+		authors_array = document.getElementsByClassName('search-result row');
+		authors_array = Array.from(authors_array);
+		matching_authors = authors_array.filter(keyword_filter,keyword);
+		len_matching = matching_authors.length;
+		len_original = authors_array.length;
+		section = document.getElementById('author_section');
+		section.innerHTML = matching_authors.map(e => e.outerHTML).join()
+		console.log(section);
+		header = document.getElementById('results');
+		header.innerHTML = `<h2 class="lead" id="results"><strong class="text-danger">${len_matching}</strong> results out of ${len_original} matches the criteria</h2>`;
+
+		var tags_ul = document.getElementById("tags");
+		var tags_li = document.createElement("li");
+		tags_li.setAttribute("style","display:inline-block; padding:15px; margin:10px; border: 2px solid blue; border-radius: 5px;");
+		tags_li.appendChild(document.createTextNode(keyword));
+		tags_ul.appendChild(tags_li);
+	}
+
+	function keyword_filter(element){
+		keyword = this;
+		content = element.innerText;
+		return content.includes(keyword)
+	}
+
+</script>
+
+<div style="margin-left: 60px; margin-right: 60px" class="container">
+    <head>
+        <title>Author Search</title>
+    </head>
+    <hgroup class="mb30">
+        <h1><center>Book Author Search Engine</center></h1>
+        <h3 class="lead"><center>Enter the search query</center></strong></h3>
+    </hgroup>
+	<form action="http://127.0.0.1:5000/" method="post" align="center">
+		<input type="text" class="searchTerm" name="searchTerm"  placeholder="Search for your preferance">
+    	<input type="submit" value="Submit">
+	</form>
+
+	{% if hits %}
+        <head>
+            <title>Author Search</title>
+        </head>
+    <hgroup class="mb10">
+		<h2><i><u>Search Results</u></i></h2>
+		<h3 class="lead" id="results"><strong class="text-danger">{{ num_results }}</strong> results founded for : <strong class="text-danger">{{  query  }}</strong></h3>
+	</hgroup>
+
+
+    <section id='author_section' class="col-md-8">
+		{% for hit in hits %}
+		<article class="search-result row">
+			<div class="col-md-12">
+				<h3 style="color:darkblue;">{{ hit._source.title }}</h3>
+				<ul class="meta-search">
+					<li><i class="glyphicon glyphicon-user"></i> <span>Author Name - {{ hit._source.author_name }}</span></li>
+                    <li><i class="glyphicon glyphicon-calendar"></i> <span>Date of Birth - {{ hit._source.date_of_birth }} </span></li>
+					<li><i class="glyphicon glyphicon-globe"></i> <span>Birth Place - {{ hit._source.birth_place }}</span></li>
+                    <li><i class="glyphicon glyphicon-home"></i> <span>School</span></li>
+					<ul>
+						{% if hit._source.school | length >= 1 %}
+							{% for item in hit._source.school %}
+								<li>{{item}}</li>
+							{% endfor %}
+						{% else %}
+							දත්ත නොමැත
+						{% endif %}
+					</ul>
+					<li><i class="glyphicon glyphicon-list"></i> <span>Category of the Books</span></li>
+					
+					<ul>
+						{% if hit._source.category | length >= 1 %}
+							{% for item in hit._source.category %}
+								<li>{{item}}</li>
+							{% endfor %}
+						{% else %}
+							දත්ත නොමැත
+						{% endif %}
+					</ul>
+					<li><i class="glyphicon glyphicon-font"></i> <span>Written Languages</span></li>
+					
+					<ul>
+						{% if hit._source.language | length >= 1 %}
+							{% for item in hit._source.language %}
+								<li>{{item}}</li>
+							{% endfor %}
+						{% else %}
+							දත්ත නොමැත
+						{% endif %}
+					</ul>
+					
+
+
+
+					<li><i class="glyphicon glyphicon-book"></i> <span>Book List</span></li>
+                    
+					<ul>
+
+						{% if hit._source.book_list | length >= 1 %}
+							{% for item in hit._source.book_list %}
+								<li>{{item}}</li>
+							{% endfor %}
+						{% else %}
+							දත්ත නොමැත
+						{% endif %}
+					</ul>
+					
+					<li><i class="glyphicon glyphicon-exclamation-sign"></i> <span>About Author</span></li>
+					<p style="white-space: pre-line">{{ hit._source.about_author }}</p>
+				</ul>
+				
+			</div>
+			<div class="col-md-6">
+
+			</div>
+			<span class="clearfix borda"></span>
+		</article>
+		{% endfor %}
+	</section>
+
+
+	{% else %}
+		{% if init %}
+            <head>
+            <title>Author Search</title>
+            </head>
+
+
+		{% else %}
+		<hgroup class="mb20">
+			<h2><i><u>Search Results</u></i></h2>
+			<h3 class="lead"><strong class="text-danger">No</strong> results found for : <strong class="text-danger">{{  query  }}</strong></h3>
+		</hgroup>
+		{% endif %}
+	{% endif %}
+</div>
