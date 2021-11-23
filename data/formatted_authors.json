@@ -431,18 +431,6 @@
         ]
     },
     {
-        "author_name": "යුධංජය විජේරත්න",
-        "author_name_english": "Yudanjaya Wijeratne",
-        "date_of_birth": "1992 නොවැම්බර් 26",
-        "birth_place": "රත්නපුර, ශ්‍රී ලංකාව",
-        "birth_place_english": "\r\nRatnapura, Sri Lanka",
-        "school": [],
-        "book_list": [],
-        "about_author": "දත්ත නොමැත",
-        "language": [],
-        "category": []
-    },
-    {
         "author_name": "දෙනගම සිරිවර්ධන",
         "author_name_english": "Denagama Siriwardena",
         "date_of_birth": "\r\n1945 පෙබරවාරි 19",
@@ -848,10 +836,10 @@
     },
     {
         "author_name": "කාර්තිගේසු සිවතම්බි",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Karthigesu Sivathambi\n",
         "date_of_birth": " 1932 මැයි 10 ",
         "birth_place": "යාපනය",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Jaffna",
         "school": [
             "සහිරා විද්‍යාලය",
             "විග්නේෂ්වර විද්‍යාලය"
@@ -877,10 +865,10 @@
     },
     {
         "author_name": "කොන්දුල් ආරච්චිගේ විල්සන් පෙරේරා",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Kondul Arachchige Wilson Perera\n",
         "date_of_birth": "26 අප්‍රේල් 1926",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [
             "ඕල්කට් විද්‍යාලය"
         ],
@@ -907,10 +895,10 @@
     },
     {
         "author_name": "මල්ලිකයි සී. කුමාර්",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Mallikai C. Kumar\n",
         "date_of_birth": "1944 ජනවාරි 04 ",
         "birth_place": "තලවකැලේ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Thalawakale",
         "school": [
             "දෙමළ මහා විද්‍යාලය තලවාකැලේ"
         ],
@@ -934,10 +922,10 @@
     },
     {
         "author_name": "යසපාලිත නානායක්කාර \n",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Yasapalitha Nanayakkara\n",
         "date_of_birth": "1940 ජුනි 19 \n",
         "birth_place": "ගාල්ල",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Galle",
         "school": [
             "රිච්මන්ඩ් විද්‍යාලය"
         ],
@@ -956,10 +944,10 @@
     },
     {
         "author_name": "රිචඩ් ලෙස්ලි බ්‍රෝහියර්",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Richard Leslie Brohier\n",
         "date_of_birth": "1892 ඔක්තෝබර් 5",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [
             "Colombo Academy",
             "Technical College"
@@ -983,10 +971,10 @@
     },
     {
         "author_name": "ජයතිලක ද සිල්වා \n",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Jayathilaka De Silva\n",
         "date_of_birth": "1938 ජූනි 14 ",
         "birth_place": "අම්බලන්ගොඩ ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Ambalangoda",
         "school": [
             "හික්කඩුව මධ්‍ය විද්‍යාලය"
         ],
@@ -1008,10 +996,10 @@
     },
     {
         "author_name": "තිලක් සේනසිංහ \n",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Thilak Senasinghe",
         "date_of_birth": "1958 මාර්තු22",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [
             "කොළඹ රාජකීය විද්‍යාලය"
         ],
@@ -1035,10 +1023,10 @@
     },
     {
         "author_name": "කේ.ජයතිලක (කළුආච්චිගමගේ ජයතිලක)",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "K. Jayathilaka\n",
         "date_of_birth": "1926 ජූනි 27\n",
         "birth_place": "ගම්පහ ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Gampaha",
         "school": [
             "මහගමසේකර මහ විද්‍යාලය"
         ],
@@ -1070,10 +1058,10 @@
     },
     {
         "author_name": "රිචඩ් ලයනල් ස්පිට්ල් ",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Richard Lionel Spittel\n",
         "date_of_birth": "1881 දෙසැම්බර් 9 ",
         "birth_place": "තංගල්ල",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Tangalle",
         "school": [
             "කොළඹ රාජකීය විද්‍යාලය"
         ],
@@ -1122,10 +1110,10 @@
     },
     {
         "author_name": "චිත්‍රා ෆර්නෑන්ඩෝ ",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Chitra Fernando\n",
         "date_of_birth": "1935",
         "birth_place": "කළුතර",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Kalutara",
         "school": [
             "විශාඛා  විද්‍යාලය"
         ],
@@ -1146,10 +1134,10 @@
     },
     {
         "author_name": "ඒ. වේලුපිල්ලෙයි",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "A.Velupillai\n",
         "date_of_birth": "1936 නොවැම්බර් 21",
         "birth_place": "යාපනය",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Jaffna",
         "school": [
             "පුත්තලයි දෙමළ විද්‍යාලය"
         ],
@@ -1173,10 +1161,10 @@
     },
     {
         "author_name": "\t\r\nලිෂාන් පෙරේරා",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Lishan Perera\n",
         "date_of_birth": "1994 ජුලි  3 ",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [
             "Colombo International School"
         ],
@@ -1195,10 +1183,10 @@
     },
     {
         "author_name": "සොනාලි දැරණියගල",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Sonali Deraniyagala",
         "date_of_birth": "1964",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [
             "Cambridge University",
             "University of Oxford"
@@ -1272,10 +1260,10 @@
     },
     {
         "author_name": "සමන් කැලේගම",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Saman Kalegama",
         "date_of_birth": "6 අප්‍රේල් 1959",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [
             "ඔක්ස්ෆර්ඩ් විශ්වවිද්‍යාලය",
             "ඉන්දියානු තාක්ෂණික ආයතනය (අයිඅයිටී)",
@@ -1299,10 +1287,10 @@
     },
     {
         "author_name": "සිරිල් කොඩිකාර",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Siril Kodikara",
         "date_of_birth": "1942 අගෝස්තු 27",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [],
         "book_list": [
             "කියමි සිහිකාර",
@@ -1322,10 +1310,10 @@
     },
     {
         "author_name": "අරීසෙන් අහුබුදු",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Arisen Ahubudu",
         "date_of_birth": "1920 මාර්තු 18",
         "birth_place": "කොග්ගල",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Koggala",
         "school": [],
         "book_list": [
             "කුමරතුඟු දෑ ඇල්ම",
@@ -1384,10 +1372,10 @@
     },
     {
         "author_name": "සුනන්ද මහේන්ද්‍ර",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Sunanda Mahendra",
         "date_of_birth": "1938 ජනවාරි 28",
         "birth_place": "පිලියන්දල",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Piliyandala",
         "school": [
             "ධර්මරාජ විද්‍යාලය",
             "කැළණිය විශ්ව විද්‍යාලය"
@@ -1408,10 +1396,10 @@
     },
     {
         "author_name": "ජී‍.බී. සේනානායක",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "G.B. Senanayake",
         "date_of_birth": "1913 ජුලි 13",
         "birth_place": "ශ්‍රී ලංකාව",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Sri Lanka",
         "school": [],
         "book_list": [
             "බැන්ඳුම",
@@ -1474,10 +1462,10 @@
     },
     {
         "author_name": "ජේම්ස් ගුණවර්ධන",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "James Gunawardane",
         "date_of_birth": "1921",
         "birth_place": "පන්නල",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Pannala",
         "school": [
             "ලන්ඩන් ශාස්ත්‍රාලය"
         ],
@@ -1495,10 +1483,10 @@
     },
     {
         "author_name": "නිහාල් ශ්‍රී අමරසේකර",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Nihal Shr Amarasekara",
         "date_of_birth": "1947 ජුලි16",
         "birth_place": "නුවර",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Kandy",
         "school": [
             "ශාන්ත තෝමස් විද්‍යාලය"
         ],
@@ -1516,10 +1504,10 @@
     },
     {
         "author_name": "කන්තයියා කුණරාසා",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Kanthayya Kunarasa",
         "date_of_birth": "1941",
         "birth_place": "යාපනය",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Jaffna",
         "school": [
             "පේරාදෙණිය ලංකා විශ්වවිද්‍යාලය  යාපනය විශ්වවිද්‍යාලය"
         ],
@@ -1539,10 +1527,10 @@
     },
     {
         "author_name": "ලයනල් ද ෆොන්සේකා",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Layanel De Fonseka",
         "date_of_birth": "1889 ඔක්තෝබර් 27",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [
             "කොළඹ රාජකීය විද්‍යාලය",
             "ඔක්ස්ෆර්ඩ් විශ්වවිද්‍යාලය"
@@ -1561,10 +1549,10 @@
     },
     {
         "author_name": "ඩබ්ලිව්.ඒ. සිල්වා",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "W.L.Silva",
         "date_of_birth": "1890 ජනවාරි 16",
         "birth_place": "කොළඹ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Colombo",
         "school": [],
         "book_list": [
             "සිරියලතා",
@@ -1590,10 +1578,10 @@
     },
     {
         "author_name": "රජීව විජේසිංහ",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Rajeewa Wejesinghe",
         "date_of_birth": "1954 මැයි 16",
         "birth_place": "ශ්‍රී ලංකාව",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Sri Lanka",
         "school": [
             "ශාන්ත තෝමස් විද්‍යාලය",
             "ඔක්ස්ෆර්ඩ් විශ්වවිද්‍යාලය"
@@ -1611,10 +1599,10 @@
     },
     {
         "author_name": "සෝමවීර සේනානායක",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Somaweera Senanayake",
         "date_of_birth": "1938",
         "birth_place": "බද්දේගම",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Baddegama",
         "school": [],
         "book_list": [
             "වනගත චාරිකා"
@@ -1630,10 +1618,10 @@
     },
     {
         "author_name": "චින්තන ධර්මදාස",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Chinthana Darmadasa",
         "date_of_birth": "1976 නොවැම්බර් 27",
-        "birth_place": "දත්ත නොමැත",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place": "ශ්‍රී ලංකාව",
+        "birth_place_english": "Sri Lanka",
         "school": [
             "පේරාදෙණිය විශ්වවිද්‍යාලය"
         ],
@@ -1653,10 +1641,10 @@
     },
     {
         "author_name": "සී. ඩබ්ලිව්. තමෝතරම්පිල්ලේ",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "C.W. Thamotharapillei",
         "date_of_birth": "1832 සැප්තැම්බර් 12",
         "birth_place": "ත්‍රිකුණාමලය",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Trincomalee",
         "school": [],
         "book_list": [
             "තොල්කප්පියම්",
@@ -1678,10 +1666,10 @@
     },
     {
         "author_name": "රෙජි සිරිවර්ධන",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Jessy Siriwardhana",
         "date_of_birth": "1922 මැයි 15",
         "birth_place": "රත්මලාන",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Rathmalana",
         "school": [
             "ශාන්ත තෝමස් විදුහල",
             "ආනන්ද විද්‍යාලය",
@@ -1709,10 +1697,10 @@
     },
     {
         "author_name": "තොටගමුවේ ශ්‍රී රාහුල හිමි",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Parackrama Kodithuwakku",
         "date_of_birth": "1408",
         "birth_place": "ශ්‍රී ලංකාව",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Si Lanka",
         "school": [],
         "book_list": [
             "බුද්ධිප්පසාදිනිය",
@@ -1754,10 +1742,10 @@
     },
     {
         "author_name": "මොනිකා රුවන්පතිරණ",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Monika Ruwanpathirana",
         "date_of_birth": "26 පෙබරවාරි 1946",
         "birth_place": "මාතර, ශ්‍රී ලංකාව",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Matara",
         "school": [
             "සාන්ත තෝමස් උසස් බාලිකා විද්‍යාලය",
             "සංඝමිත්තා බාලිකා විද්‍යාලය",
@@ -1780,10 +1768,10 @@
     },
     {
         "author_name": "රත්න ශ්‍රී විජේසිංහ",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Rathna Sri Wijeysinghe",
         "date_of_birth": "1953 ජුනි 2",
         "birth_place": "නාකියාදෙණිය තෙල්ලඹුර",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Nakiyadeniya, Thellambura",
         "school": [
             "හික්කඩුවේ ශ්‍රී සුමංගල මධ්‍ය මහා විද්‍යාලය",
             "ගාල්ල රිච්මන්ඞ් විද්‍යාලය",
@@ -1806,10 +1794,10 @@
     },
     {
         "author_name": "සුචරිත ගම්ලත්",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Sucharitha Gamlath",
         "date_of_birth": "1934 මාර්තු 10",
         "birth_place": "ගම්පහ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Gampaha",
         "school": [
             "බර්ක්බෙක්",
             "ලන්ඩන් විශ්ව විද්‍යාලය"
@@ -1829,7 +1817,7 @@
     },
     {
         "author_name": "ෂෙල්ටන් පයාගල",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Shelton Payagala",
         "date_of_birth": "දත්ත නොමැත",
         "birth_place": "දත්ත නොමැත",
         "birth_place_english": "දත්ත නොමැත",
@@ -1852,10 +1840,10 @@
     },
     {
         "author_name": "මුනිදාස කුමාරතුංග",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Munidasa Kumarathunga",
         "date_of_birth": "1887 ජූලි 25",
         "birth_place": "දික්වැල්ල",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Dikwella",
         "school": [
             "දික්වැල්ල බෞද්ධ විද්‍යාලය",
             "ශාන්ත තෝමස් විද්‍යාලය"
@@ -1883,10 +1871,10 @@
     },
     {
         "author_name": "ඇස්. මහින්ද හිමි",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "S. Mahinda Himi",
         "date_of_birth": "1901",
         "birth_place": "පෙම්පා ටෙන්ඩුපි සර්කි චෙරින්",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Tibet",
         "school": [
             "විද්‍යෝදය පිරිවෙන",
             "මරදාන"
@@ -1928,10 +1916,10 @@
     },
     {
         "author_name": "විමලරත්න කුමාරගම",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Vimalarathne Kumaragama",
         "date_of_birth": "1919 ජනවාරි 18",
         "birth_place": "පාතදුම්බර ",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Pathadumbara",
         "school": [
             "කටුගස්තොට ශ්‍රී රාහුල විද්‍යාලය",
             "නුවර ධර්මරාජ විද්‍යාලය",
@@ -1956,10 +1944,10 @@
     },
     {
         "author_name": "රැයිපියෙල් තෙන්නකෝන්",
-        "author_name_english": "දත්ත නොමැත",
+        "author_name_english": "Rapiyel Thennakone",
         "date_of_birth": "1899 දෙසැම්බර් 19",
         "birth_place": "මීගමුව",
-        "birth_place_english": "දත්ත නොමැත",
+        "birth_place_english": "Negambo",
         "school": [
             "රද්දොළුවේ බුදුනු පාසල"
         ],

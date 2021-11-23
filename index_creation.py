@@ -40,8 +40,8 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
-                        "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                        "analyzer" : "sinhala-analyzer"
+                        
                     },
                     "date_of_birth": {
                         "type": "text",
@@ -51,8 +51,8 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
-                        "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                        "analyzer" : "sinhala-analyzer"
+                        
                     },
                     "birth_place": {
                         "type": "text",
@@ -62,8 +62,7 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
-                        "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                        "analyzer" : "sinhala-analyzer"
                     },
                     "school": {
                         "type": "text",
@@ -73,8 +72,7 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
-                        "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                        "analyzer" : "sinhala-analyzer"
                     },
                     "book_list": {
                         "type": "text",
@@ -84,8 +82,7 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
-                        "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                        "analyzer" : "sinhala-analyzer"
                     },
                     "about_author": {
                         "type": "text",
@@ -95,8 +92,7 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
-                        "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                        "analyzer" : "sinhala-analyzer"
                     },
                     "language": {
                         "type": "text",
@@ -106,8 +102,7 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
-                        "analyzer" : "sinhala-analyzer",
-                        "search_analyzer": "standard"
+                        "analyzer" : "sinhala-analyzer"
                     },
                     "author_name_english": {
                         "type": "text",
@@ -116,7 +111,7 @@ def createIndex():
                                 "type": "keyword",
                                 "ignore_above": 256
                             }
-                        },
+                        }
                     },
                     "birth_place_english": {
                         "type": "text",
@@ -126,6 +121,7 @@ def createIndex():
                                 "ignore_above": 256
                             }
                         },
+                        
                     },
                     
             }
@@ -150,31 +146,6 @@ def read_translated_authors():
         return results_list
 
 
-def clean_function(song_lyrics):
-    if (song_lyrics):
-        processed_list = []
-        song_lines = song_lyrics.split('\n')
-        
-        for place,s_line in enumerate(song_lines):
-            process_line = re.sub('\s+',' ',s_line)
-            punc_process_line = re.sub('[.!?\\-]', '', process_line)
-            processed_list.append(punc_process_line)
-        
-        sen_count = len(processed_list)
-        final_processed_list = []
-        
-        for place,s_line in enumerate(processed_list):
-            if (s_line=='' or s_line==' '):
-                if (place!= sen_count-1 and (processed_list[place+1]==' ' or processed_list[place+1]=='')) :
-                    pass
-                else:
-                    final_processed_list.append(s_line)
-            else:
-                final_processed_list.append(s_line)
-        final_song_lyrics = '\n'.join(final_processed_list)
-        return final_song_lyrics
-    else:
-        return None
 
 def data_generation(author_array):
     for author in author_array:
