@@ -1,4 +1,4 @@
-# IR_Project-Authors_Search_Engine
+# Book Author search Engine - IR Project
 Author Search Engine using ElasticSearch and Python for IR Project(CS4642)
 
 ## Getting Start
@@ -30,7 +30,7 @@ Author Search Engine using ElasticSearch and Python for IR Project(CS4642)
 - requirements.txt - python requirements
 
 ### Details of Author Data
-formatted_authors.json file contains 103 author records with following data
+formatted_authors.json file contains 102 author records with following data
 1. author_name - name of the author in Sinhala
 2. author_name_english - name of the author in  English
 3. date_of_birth - Birth date of the author
