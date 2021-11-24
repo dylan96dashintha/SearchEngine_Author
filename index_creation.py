@@ -23,7 +23,7 @@ def createIndex():
                 "filter" : {
                     "edge_ngram_custom_filter":{
                         "type": "edge_ngram",
-                        "min_gram" : 2,
+                        "min_gram" : 4,
                         "max_gram" : 50,
                         "side" : "front"
                     }

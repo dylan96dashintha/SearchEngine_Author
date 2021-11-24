@@ -26,7 +26,7 @@ def search(search_query):
     search_fields = []
     sort_num = 0
     field_list = ["author_name", "author_name_english", "date_of_birth", "birth_place", "birth_place_english", "book_list"]
-    all_fields = ["author_name", "date_of_birth", "birth_place", "book_list", "about_author", "category", "language", "author_name_english", "birth_place_english"]
+    all_fields = ["author_name", "date_of_birth", "birth_place", "book_list", "category", "language", "author_name_english", "birth_place_english"]
     final_fields = []
 
     for word in tokens:
