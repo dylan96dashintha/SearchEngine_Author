@@ -81,8 +81,8 @@ Rule-based text mining is used to understand and extract data from the user ente
 
 A basic set of rules are applied to each search phrase to identify the keywords, classify them into relevant search types. Acoording to the classification user query was classified to one of the following query type. (After they identify the relevant fields of the keywords, boost the identified field by increasing the weight.)
 
-1. Faceted query with Cross Fields
-2. Faceted query with phrase-prefix
+1. Query with Cross Fields
+2. Query with phrase-prefix
 
 #### Following diagram further shows the use if Rule Based Classification and Multisearch queries.
 
